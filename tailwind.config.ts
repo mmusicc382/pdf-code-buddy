@@ -14,7 +14,14 @@ export default {
     },
     extend: {
       fontFamily: {
-        nunito: ['Nunito', 'sans-serif'],
+        nunito: ['Work Sans', 'sans-serif'],
+        sans: ['Work Sans', 'sans-serif'],
+        display: ['Instrument Serif', 'serif'],
+        serif: ['Instrument Serif', 'serif'],
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-saffron': 'var(--gradient-saffron)',
       },
       colors: {
         border: "hsl(var(--border))",
