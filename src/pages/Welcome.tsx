@@ -13,7 +13,7 @@ const Welcome = () => {
         <nav className="max-w-7xl mx-auto px-6 lg:px-10 h-16 flex items-center justify-between">
           <a href="#" className="flex items-center gap-2 font-display text-2xl">
             <span className="w-2.5 h-2.5 rounded-full bg-saffron-gradient" />
-            Saanket
+            Gesture and Communication
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
             <a href="#how" className="hover:text-foreground transition-colors">How it works</a>
@@ -47,7 +47,7 @@ const Welcome = () => {
             </h1>
 
             <p className="max-w-xl text-lg lg:text-xl text-muted-foreground leading-relaxed">
-              Saanket translates Indian Sign Language into text and voice — and back — in real time.
+              Gesture and Communication translates Indian Sign Language into text and voice — and back — in real time.
               Built for classrooms, clinics, and conversations that finally feel effortless.
             </p>
 
@@ -175,7 +175,7 @@ const Welcome = () => {
                     Real-time captions for every classroom, clinic and counter.
                   </h3>
                   <p className="text-primary-foreground/70 max-w-md">
-                    Open Saanket on any device. Captions appear as you sign — no waiting, no editing.
+                    Open Gesture and Communication on any device. Captions appear as you sign — no waiting, no editing.
                   </p>
                 </div>
               </div>
@@ -212,9 +212,9 @@ const Welcome = () => {
         <div className="max-w-5xl mx-auto px-6 lg:px-10 text-center">
           <p className="text-xs uppercase tracking-[0.2em] text-accent mb-6">Our story</p>
           <blockquote className="font-display italic text-3xl md:text-5xl lg:text-6xl leading-[1.1] text-balance">
-            "There are 63 million people in India with hearing loss. Saanket exists so a sign is never lost in translation again."
+            "There are 63 million people in India with hearing loss. Gesture and Communication exists so a sign is never lost in translation again."
           </blockquote>
-          <p className="mt-10 text-background/60 text-sm uppercase tracking-[0.2em]">— The Saanket team</p>
+          <p className="mt-10 text-background/60 text-sm uppercase tracking-[0.2em]">— The Gesture and Communication team</p>
         </div>
       </section>
 
@@ -225,7 +225,7 @@ const Welcome = () => {
             Start the <em className="italic text-accent">conversation</em>.
           </h2>
           <p className="text-lg text-muted-foreground max-w-xl mx-auto mb-10">
-            Try Saanket free. Sign in, point your camera, and watch silence become sound.
+            Try Gesture and Communication free. Sign in, point your camera, and watch silence become sound.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="xl" onClick={() => navigate("/dashboard")} className="bg-saffron-gradient text-accent-foreground rounded-full px-8 shadow-glow">
@@ -241,8 +241,8 @@ const Welcome = () => {
       {/* Footer */}
       <footer className="border-t border-border py-10">
         <div className="max-w-7xl mx-auto px-6 lg:px-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p className="font-display text-lg text-foreground">Saanket</p>
-          <p>© {new Date().getFullYear()} Saanket. Made in India with care.</p>
+          <p className="font-display text-lg text-foreground">Gesture and Communication</p>
+          <p>© {new Date().getFullYear()} Gesture and Communication. Made in India with care.</p>
         </div>
       </footer>
     </div>
